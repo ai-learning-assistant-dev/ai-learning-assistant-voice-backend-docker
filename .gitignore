@@ -3,8 +3,6 @@
 # 模型缓存目录（包含大型模型文件）
 models_cache/
 
-tts/
-
 images/
 
 # 模型下载目录

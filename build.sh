@@ -22,7 +22,7 @@ echo "models_cache 目录大小: $MODELS_SIZE"
 
 # 设置构建标签
 IMAGE_NAME="ai-voice-backend"
-TAG="v1.1"
+TAG="v1.2"
 
 echo ""
 echo "开始构建 Docker 镜像..."
