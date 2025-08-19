@@ -1,0 +1,19 @@
+# # 基础 Web 服务依赖
+fastapi
+uvicorn[standard]
+python-multipart
+click
+
+# 音频处理
+ffmpeg-python
+numpy
+tqdm
+
+# SenseVoice 与 ModelScope 及性能优化
+aliyun-python-sdk-core-v3==2.13.10
+numba
+llvmlite
+funasr==1.2.6
+modelscope
+torch
+torchaudio

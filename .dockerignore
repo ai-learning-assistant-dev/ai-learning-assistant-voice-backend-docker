@@ -1,0 +1,110 @@
+# 版本控制
+.git
+.gitignore
+.gitattributes
+
+# Docker相关文件
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# 文档和说明
+*.md
+README*
+CHANGELOG*
+LICENSE*
+docs/
+
+# Python缓存和临时文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 测试和覆盖率
+.pytest_cache/
+.coverage
+.nox/
+.tox/
+htmlcov/
+
+# 环境变量和配置
+.env
+.env.*
+!docker.env
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 压缩包文件
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# 构建脚本（如果不需要在容器内使用）
+build.sh
+export.sh
+run.sh
+
+# 测试数据和临时输出
+test_data/
+output/
+tmp/
+
+# 注意：不要忽略以下目录，它们包含了需要打包的模型文件
+# models_cache/  # 保留 - 包含预训练模型
+# shared_models/ # 保留 - 包含共享模型
+# asr/           # 保留 - ASR服务代码
+# tts/           # 保留 - TTS服务代码
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# 音频文件
+*.wav
+*.mp3
+*.flac
+*.ogg
+output.mp3
+
+# 配置文件
+*.env
+
+# 构建产物
+dist/
+build/ 
